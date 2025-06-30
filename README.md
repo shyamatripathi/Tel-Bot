@@ -79,7 +79,7 @@ celery -A project worker --loglevel=info
 ## Running the Telegram Bot
 
 Before running, make sure to:
-- Replace YOUR_BOT_TOKEN in `telegram_bot.py` with the actual bot token.(I have used dummy token to publish)
+- Replace BOT_TOKEN in `telegram_bot.py` with the actual bot token.(I have used dummy token to publish)
 
 Then run:
 ```bash
