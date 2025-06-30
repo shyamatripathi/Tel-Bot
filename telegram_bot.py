@@ -18,7 +18,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(f"Hello @{username}, you're registered!")
 
 def main():
-    app = ApplicationBuilder().token('7999326010:AAFeQtHWSBBcc2qNOV7D5d-QrsdTK_L5J-U').build()
+    app = ApplicationBuilder().token('your tel_api').build()
     app.add_handler(CommandHandler("start", start))
     app.run_polling()
 
