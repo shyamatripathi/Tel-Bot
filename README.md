@@ -13,7 +13,7 @@ This is a backend-focused Django project it demonstrates practical implementatio
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/shyamatripathi/project.git
+git clone https://github.com/shyamatripathi/Tel-Bot
 cd internship-project
 ```
 
